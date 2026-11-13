@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Story": {
+      "title": "Story",
+      "description": "A consumer story logged by a user.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "createdAt": { "type": "number" },
+        "title": { "type": "string" },
+        "hook": { "type": "string" },
+        "emotion": { "type": "string" },
+        "transcript": { "type": "string" }
+      },
+      "required": ["id", "createdAt", "title", "transcript"]
+    }
+  },
+  "firestore": {
+    "/stories/{storyId}": {
+      "schema": "Story",
+      "description": "Collection of consumer stories."
+    }
+  }
+}

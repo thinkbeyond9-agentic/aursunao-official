@@ -1,0 +1,6 @@
+{
+  "name": "Aur Sunao",
+  "description": "Tell me stories you can't tell your wife. Voice-first anonymous platform with recurring keyword stress correlation detection, interactive D3 Story Knowledge Graph, and 8 life tension categories.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
